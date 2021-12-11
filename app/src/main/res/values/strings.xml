@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IPO World</string>
+    <string name="title_main_ipo">Main IPO</string>
+    <string name="title_sme_ipo">SME IPO</string>
+    <string name="title_market">Market</string>
+    <string name="title_news">News</string>
+</resources>

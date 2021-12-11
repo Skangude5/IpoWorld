@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_main_ipo"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_main_ipo" />
+
+    <item
+        android:id="@+id/navigation_sme_ipo"
+        android:icon="@drawable/ic_baseline_sme_ipo_bottom_nav_24"
+        android:title="@string/title_sme_ipo" />
+
+    <item
+        android:id="@+id/navigation_market"
+        android:icon="@drawable/ic_baseline_market_bottom_nav_24"
+        android:title="@string/title_market" />
+
+    <item
+        android:id="@+id/navigation_news"
+        android:icon="@drawable/ic_baseline_news_bottom_nav_24"
+        android:title="@string/title_news" />
+
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_main_ipo">
+
+    <fragment
+        android:id="@+id/navigation_main_ipo"
+        android:name="com.skangude5.ipoworld.ui.main_ipo.MainIPOFragment"
+        android:label="@string/title_main_ipo"
+        tools:layout="@layout/fragment_main_ipo" />
+
+    <fragment
+        android:id="@+id/navigation_sme_ipo"
+        android:name="com.skangude5.ipoworld.ui.sme_ipo.SmeIPOFragment"
+        android:label="@string/title_sme_ipo"
+        tools:layout="@layout/fragment_sme_ipo" />
+
+    <fragment
+        android:id="@+id/navigation_market"
+        android:name="com.skangude5.ipoworld.ui.market.MarketFragment"
+        android:label="@string/title_market"
+        tools:layout="@layout/fragment_market" />
+
+    <fragment
+        android:id="@+id/navigation_news"
+        android:name="com.skangude5.ipoworld.ui.news.NewsFragment"
+        android:label="@string/title_news"
+        tools:layout="@layout/fragment_market" />
+</navigation>
