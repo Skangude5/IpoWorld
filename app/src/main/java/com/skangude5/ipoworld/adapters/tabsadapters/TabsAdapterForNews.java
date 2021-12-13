@@ -1,4 +1,4 @@
-package com.skangude5.ipoworld.adapters;
+package com.skangude5.ipoworld.adapters.tabsadapters;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -6,12 +6,12 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 
 import com.skangude5.ipoworld.ui.main_ipo.main_ipo_status.MainIPOListed;
 import com.skangude5.ipoworld.ui.main_ipo.main_ipo_status.MainIPOUpcoming;
-import com.skangude5.ipoworld.ui.market.market_category.CryptoMarketIndex;
-import com.skangude5.ipoworld.ui.market.market_category.StockMarketIndex;
+import com.skangude5.ipoworld.ui.news.news_category.CryptoMarketNews;
+import com.skangude5.ipoworld.ui.news.news_category.StockMarketNews;
 
-public class TabsAdapterForMarket extends FragmentStatePagerAdapter {
+public class TabsAdapterForNews extends FragmentStatePagerAdapter {
     int mNumOfTabs;
-    public TabsAdapterForMarket(FragmentManager fm, int NoofTabs){
+    public TabsAdapterForNews(FragmentManager fm, int NoofTabs){
         super(fm);
         this.mNumOfTabs = NoofTabs;
     }
@@ -23,11 +23,11 @@ public class TabsAdapterForMarket extends FragmentStatePagerAdapter {
     public Fragment getItem(int position){
         switch (position){
             case 0:
-                StockMarketIndex stockMarketIndex = new StockMarketIndex();
-                return stockMarketIndex;
+                StockMarketNews stockMarketNews = new StockMarketNews();
+                return stockMarketNews;
             case 1:
-                CryptoMarketIndex cryptoMarketIndex = new CryptoMarketIndex();
-                return cryptoMarketIndex;
+                CryptoMarketNews cryptoMarketNews = new CryptoMarketNews();
+                return cryptoMarketNews;
             default:
                 return null;
         }

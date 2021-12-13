@@ -3,6 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/IpoWorld/app/src/main/res/layout/fragment_main_ipo.xml" value="0.25" />
+        <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/IpoWorld/app/src/main/res/layout/fragment_main_ipo_listed.xml" value="0.25" />
+        <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/IpoWorld/app/src/main/res/layout/fragment_main_ipo_upcoming.xml" value="0.25" />
+        <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/IpoWorld/app/src/main/res/layout/fragment_market.xml" value="0.25" />
+        <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/IpoWorld/app/src/main/res/layout/fragment_market_crypto_market_index.xml" value="0.25" />
+        <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/IpoWorld/app/src/main/res/layout/fragment_market_stock_market_index.xml" value="0.25" />
+        <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/IpoWorld/app/src/main/res/layout/fragment_news.xml" value="0.25" />
+        <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/IpoWorld/app/src/main/res/layout/fragment_news_crypto_market_news.xml" value="0.25" />
+        <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/IpoWorld/app/src/main/res/layout/fragment_news_stock_market_news.xml" value="0.25" />
+        <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/IpoWorld/app/src/main/res/layout/fragment_sme_ipo.xml" value="0.25" />
+        <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/IpoWorld/app/src/main/res/layout/fragment_sme_ipo_listed.xml" value="0.25" />
+        <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/IpoWorld/app/src/main/res/layout/fragment_sme_ipo_upcoming.xml" value="0.25" />
+        <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/IpoWorld/app/src/main/res/layout/text_row_item_for_main_ipo_listed.xml" value="0.264" />
+        <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/IpoWorld/app/src/main/res/layout/text_row_item_for_main_ipo_upcoming.xml" value="0.25" />
+        <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/IpoWorld/app/src/main/res/layout/text_row_item_for_market_crypto_market.xml" value="0.25" />
+        <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/IpoWorld/app/src/main/res/layout/text_row_item_for_market_stock_market.xml" value="0.25" />
+        <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/IpoWorld/app/src/main/res/layout/text_row_item_for_news_crypto.xml" value="0.25" />
+        <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/IpoWorld/app/src/main/res/layout/text_row_item_for_news_crypto_market.xml" value="0.25" />
+        <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/IpoWorld/app/src/main/res/layout/text_row_item_for_news_stock_market.xml" value="0.25" />
+        <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/IpoWorld/app/src/main/res/layout/text_row_item_for_sme_ipo_listed.xml" value="0.25" />
+        <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/IpoWorld/app/src/main/res/layout/text_row_item_for_sme_ipo_upcoming.xml" value="0.25" />
         <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/app/src/main/res/drawable/ic_baseline_upcoming_header_icon_24.xml" value="0.1" />
         <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/app/src/main/res/drawable/ic_outline_listed_header_icon_24.xml" value="0.1" />
         <entry key="..\:/Users/Jerry/OneDrive/Documents/GitHub/app/src/main/res/layout/activity_main.xml" value="0.25" />

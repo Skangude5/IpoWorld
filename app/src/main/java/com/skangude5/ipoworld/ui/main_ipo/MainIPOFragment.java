@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toolbar;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -13,7 +12,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
 import com.skangude5.ipoworld.R;
-import com.skangude5.ipoworld.adapters.TabsAdapterForMainIPO;
+import com.skangude5.ipoworld.adapters.tabsadapters.TabsAdapterForMainIPO;
 import com.skangude5.ipoworld.databinding.FragmentMainIpoBinding;
 
 public class MainIPOFragment extends Fragment {

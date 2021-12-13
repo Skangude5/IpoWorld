@@ -1,6 +1,5 @@
 package com.skangude5.ipoworld.ui.news;
 
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import android.os.Bundle;
@@ -13,12 +12,10 @@ import androidx.viewpager.widget.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import com.google.android.material.tabs.TabLayout;
 import com.skangude5.ipoworld.R;
-import com.skangude5.ipoworld.adapters.TabsAdapterForMainIPO;
-import com.skangude5.ipoworld.adapters.TabsAdapterForNews;
+import com.skangude5.ipoworld.adapters.tabsadapters.TabsAdapterForNews;
 import com.skangude5.ipoworld.databinding.FragmentNewsBinding;
 
 public class NewsFragment extends Fragment {

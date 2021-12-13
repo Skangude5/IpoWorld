@@ -1,4 +1,4 @@
-package com.skangude5.ipoworld.adapters;
+package com.skangude5.ipoworld.adapters.tabsadapters;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -6,10 +6,12 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 
 import com.skangude5.ipoworld.ui.main_ipo.main_ipo_status.MainIPOListed;
 import com.skangude5.ipoworld.ui.main_ipo.main_ipo_status.MainIPOUpcoming;
+import com.skangude5.ipoworld.ui.sme_ipo.sme_ipo_status.SmeIPOListed;
+import com.skangude5.ipoworld.ui.sme_ipo.sme_ipo_status.SmeIPOUpcoming;
 
-public class TabsAdapterForMainIPO extends FragmentStatePagerAdapter {
+public class TabsAdapterForSmeIPO extends FragmentStatePagerAdapter {
     int mNumOfTabs;
-    public TabsAdapterForMainIPO(FragmentManager fm, int NoofTabs){
+    public TabsAdapterForSmeIPO(FragmentManager fm, int NoofTabs){
         super(fm);
         this.mNumOfTabs = NoofTabs;
     }
@@ -21,11 +23,11 @@ public class TabsAdapterForMainIPO extends FragmentStatePagerAdapter {
     public Fragment getItem(int position){
         switch (position){
             case 0:
-                MainIPOUpcoming upcoming = new MainIPOUpcoming();
-                return upcoming;
+                SmeIPOUpcoming smeUpcoming = new SmeIPOUpcoming();
+                return smeUpcoming;
             case 1:
-                MainIPOListed listed = new MainIPOListed();
-                return listed;
+                SmeIPOListed smeListed = new SmeIPOListed();
+                return smeListed;
             default:
                 return null;
         }
