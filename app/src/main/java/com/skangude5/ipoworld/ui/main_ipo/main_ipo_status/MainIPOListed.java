@@ -25,13 +25,13 @@ public class MainIPOListed extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_main_ipo_listed,container,false);
         recyclerViewForMainIPOListed = root.findViewById(R.id.recycler_view_for_main_ipo_listed);
-        String[] temp = new String[20];
-        for(int i=1;i<21;i++){
+        String[] temp = new String[10];
+        for(int i=1;i<11;i++){
             temp[i-1] = "Listed Main IPO " + Integer.toString(i) + " information";
         }
         recyclerViewForMainIPOListed.setLayoutManager(new LinearLayoutManager(getContext()));
         CustomRecyclerViewAdapterForMainIPOForListed customRecyclerViewAdapterForMainIPOForListed = new CustomRecyclerViewAdapterForMainIPOForListed(temp);
-        recyclerViewForMainIPOListed.addItemDecoration(new DividerItemDecoration(recyclerViewForMainIPOListed.getContext(),DividerItemDecoration.VERTICAL));
+        //recyclerViewForMainIPOListed.addItemDecoration(new DividerItemDecoration(recyclerViewForMainIPOListed.getContext(),DividerItemDecoration.VERTICAL));
         recyclerViewForMainIPOListed.setAdapter(customRecyclerViewAdapterForMainIPOForListed);
 
         //recyclerView clicklistner

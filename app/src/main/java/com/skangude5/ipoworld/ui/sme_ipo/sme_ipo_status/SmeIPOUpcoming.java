@@ -27,13 +27,13 @@ public class SmeIPOUpcoming extends Fragment {
         View root = inflater.inflate(R.layout.fragment_sme_ipo_upcoming,container,false);
 
         recyclerViewForSmeIPOUpcoming = root.findViewById(R.id.recycler_view_for_sme_ipo_upcoming);
-        String[] temp = new String[20];
-        for(int i=1;i<21;i++){
+        String[] temp = new String[10];
+        for(int i=1;i<11;i++){
             temp[i-1] = "Upcoming Sme IPO " + Integer.toString(i) + " information";
         }
         recyclerViewForSmeIPOUpcoming.setLayoutManager(new LinearLayoutManager(getContext()));
         CustomRecyclerViewAdapterForSmeIPOForUpcoming customRecyclerViewAdapterForSmeIPOForUpcoming = new CustomRecyclerViewAdapterForSmeIPOForUpcoming(temp);
-        recyclerViewForSmeIPOUpcoming.addItemDecoration(new DividerItemDecoration(recyclerViewForSmeIPOUpcoming.getContext(),DividerItemDecoration.VERTICAL));
+        //recyclerViewForSmeIPOUpcoming.addItemDecoration(new DividerItemDecoration(recyclerViewForSmeIPOUpcoming.getContext(),DividerItemDecoration.VERTICAL));
         recyclerViewForSmeIPOUpcoming.setAdapter(customRecyclerViewAdapterForSmeIPOForUpcoming);
 
         //recyclerView clicklistner
